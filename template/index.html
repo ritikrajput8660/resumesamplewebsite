@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #profilewrapper{
+            text-align: center;
+        }
+        #profilepic{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container{
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class = 'row'>
+            <div class ='col-md-3'>
+                <div class='card card-body' id='profilewrapper'>
+                   <img id='profilepic' src="{% static 'IMAGES/goa.jpg' %}" alt=""> 
+                   <hr>
+                   <h4>Hii I'm Riteek</h4>
+                   <p>I love coding, doing research and collaborating</p>   
+                </div>
+            </div>
+            <div class ='col-md-9'>
+                <div class='card card-body'>
+                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laborum quae reprehenderit sit voluptatem earum atque cupiditate veritatis necessitatibus doloremque!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident facilis laudantium vero nihil ab deleniti voluptatem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis blanditiis sint?</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class = 'row'>
+            <div class ='col-md-6'>
+                <div class='card card-body'> 
+                   <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                   <hr>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur, quos exercitationem officia ratione, nihil deserunt totam voluptate amet quis fugiat maiores doloribus laborum expedita illo deleniti, ipsam magnam corrupti.</p>
+                </div>
+            </div>
+            <div class ='col-md-6'>
+                <div class='card card-body'>
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magni perspiciatis qui praesentium reprehenderit eveniet dolores. Quidem distinctio cumque excepturi odit libero. Quae autem ratione pariatur qui dolores excepturi odit.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class = 'row'>
+            <div class ='col-md-6'>
+                <div class='card card-body'>
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, odit optio quibusdam maxime voluptate asperiores porro doloribus numquam, exercitationem quae possimus provident praesentium vitae quisquam eos natus in, delectus soluta!</p>
+                </div>
+            </div>
+            <div class ='col-md-6'>
+                <div class='card card-body'>
+                    <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptas qui eligendi alias quos, eius unde, officia reprehenderit fugiat, repudiandae repellat a minus at ipsa velit mollitia! Itaque, nesciunt mollitia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
